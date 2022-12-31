@@ -1,0 +1,26 @@
+.container-login {
+   background: rgb(14, 29, 251);
+   background: linear-gradient(
+      180deg,
+      rgba(14, 29, 251, 1) 0%,
+      rgba(146, 104, 200, 1) 42%,
+      rgba(146, 104, 200, 1) 55%,
+      rgba(77, 59, 171, 1) 100%
+   );
+
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+}
+
+.container-dashboard {
+   height: 100vh;
+   width: 100vw;
+   padding: 2rem;
+   background: linear-gradient(180deg, #5e72e4 50%, #fff 50%);
+}
+
+.error {
+   color: red;
+   background-color: rgba(255, 99, 99, 0.423);
+}
